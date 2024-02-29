@@ -1,0 +1,19 @@
+.card{
+    width: 70%;
+    height: 10rem;
+    margin: 10% auto;
+    background-color: rgba(38, 216, 216, 0.527);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info{
+    margin-top: 15px;
+    text-align: center;
+}

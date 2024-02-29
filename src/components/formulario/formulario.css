@@ -1,0 +1,38 @@
+form {
+    width: 70%;
+    height: 20rem;
+    margin: 10% auto;
+    background-color: rgba(199, 228, 228, 0.774);
+    box-shadow: 10px 5px 5px -8px rgba(0.0, 0.0, 0.0, .5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  input,
+  label {
+    margin-bottom: 12px;
+    margin: 0 20px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 30px;
+    padding: 0.5rem;
+    background-color: rgb(94, 94, 204);
+    color: #fff;
+    font-weight:bolder;
+    font-size: 15px;
+    border: black solid 1px;
+    border-radius: 10px;
+  }
