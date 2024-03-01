@@ -14,7 +14,9 @@ function App() {
   return (
     <>
       <Formulario onSubmit={handleFormSubmit} />
-      <Card customer={customer} />
+      {
+        customer && <Card customer={customer} />
+      }
     </>
   )
 }
